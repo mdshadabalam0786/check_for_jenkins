@@ -22,14 +22,17 @@ def update_naukri_profile():
     if random_num==1:
         a.clear()
         a.send_keys("Md Shadab Alam")
+        print("successfully added with Md Shadab Alam")
         sleep(3)
     elif random_num==2:
         a.clear()
         a.send_keys("Shadab Alam")
+        print("successfully added with Shadab Alam")
         sleep(3)
     elif random_num==3:
         a.clear()
-        a.send_keys("Ms Shadab")
+        a.send_keys("Md Shadab")
+        print("successfully added with Md Shadab ")
         sleep(3)
     driver.find_element('xpath','//button[text()="Save"]').click()
     sleep(5)
